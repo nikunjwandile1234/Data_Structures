@@ -30,6 +30,7 @@ int main()
         {
             cout<<array[i][j]<<" ";
         }cout<<endl;
+        
     }
 
     
