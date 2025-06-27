@@ -24,7 +24,13 @@ int main()
         mpp[arr[i]]++;
     }
 
-    //frtching 
+   cout<<"this is key value pair for frequency:"<<endl;
+    for(auto it:mpp)
+    {
+        cout<<it.first<<"->"<<it.second<<endl;
+    }
+
+    //fetching 
 
     int q;
     cin>>q;
